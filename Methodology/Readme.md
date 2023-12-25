@@ -88,6 +88,14 @@ Alpaca-LoRA is a large-scale language model optimization technique that combines
 - This feature makes the present model highly scalable in large-scale deployments and distributed training environments.
 
 In summary, the model is fine-tuned using the LoRA approach to the transformer-based Alpaca model so that the Aplaca model can be applied to a variety of natural language processing tasks, including text categorization, sentiment analysis, question and answer systems, machine translation, and text generation.
+
+# Limitation:
+The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
+## Future research:
+As of now, the parts of the model that can be improved in this study include the following:
+- Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
+- More parameters, the final results can be made more accurate and comprehensive by introducing more evaluation parameters.
+- More computer resources, better performance gpu can be used to train the model and finally achieve accurate numerical prediction.
 ```
 @article{hu2021lora,
   title={Lora: Low-rank adaptation of large language models},
