@@ -37,8 +37,8 @@ The advantage of the Transformer architecture is mainly the ability to ensure pa
 ## Existing studies
 Currently we are not able to find papers related to financial analysis using the Llama2 model in online repositories such as Google scholar, and there are cases of using other models in areas related to financial analysis using large language models, which will be covered in the literature.
 
-![](Result\Llama2 model.png)
-  <img src="83e2772f163a3aabec28646f4570867.jpg" alt="Abstract Word Cloud">
+<img src="Llama2 model.png" alt="Llama2 model">
+
 # LoRA method
 The LoRA approach is based on efficient and precise control of parameter updates for large pre-trained models. The core idea of this method is to represent the changes of model parameters through a low-rank matrix instead of directly updating all parameters in the model. In the fine-tuning process, LoRA introduces two low-rank matrices for the input weight matrix and the output weight matrix. The following is a detailed description of the LoRA logic.
 ## LoRA introduction
@@ -66,7 +66,7 @@ where W is the weight matrix of the original model, W' is the fine-tuned weight 
 
 Overall, the logic of LoRA lies in the efficient updating of the parameters of a large pre-trained model through the use of two low-rank matrices, while also maintaining the original structure of the model and most of the training knowledge. The advantage of this approach is the ability to quickly adapt to new tasks with limited resources and maintain a high level of performance.
 
-![](Result\LoRA method)
+<img src="LoRA method.png" alt="LoRA method">
 
 # Alpaca-LoRA model
 Alpaca-LoRA is a large-scale language model optimization technique that combines the Alpaca model and the LoRA (Low-Rank Adaptation) method.
