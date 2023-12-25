@@ -37,8 +37,8 @@ The advantage of the Transformer architecture is mainly the ability to ensure pa
 ## Existing studies
 Currently we are not able to find papers related to financial analysis using the Llama2 model in online repositories such as Google scholar, and there are cases of using other models in areas related to financial analysis using large language models, which will be covered in the literature.
 
-![](Result\Llama2 model)
-
+![](Result\Llama2 model.png)
+  <img src="83e2772f163a3aabec28646f4570867.jpg" alt="Abstract Word Cloud">
 # LoRA method
 The LoRA approach is based on efficient and precise control of parameter updates for large pre-trained models. The core idea of this method is to represent the changes of model parameters through a low-rank matrix instead of directly updating all parameters in the model. In the fine-tuning process, LoRA introduces two low-rank matrices for the input weight matrix and the output weight matrix. The following is a detailed description of the LoRA logic.
 ## LoRA introduction
