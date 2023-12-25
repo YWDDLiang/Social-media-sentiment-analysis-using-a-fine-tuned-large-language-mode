@@ -21,3 +21,4 @@ This study explores the many ways in which quantitative analysis and deep learni
 - Contribution: This article not only considers traditional economic and financial metrics, but also explores the use of deep learning models, such as recurrent neural networks and convolutional neural networks, in time series forecasting.
 - Limitations: this article does not use real-time updated forum data and has some time limitations.
 - Improvement to the study: Achieving more effective and credible predictive analytics by analyzing real-time forum data.
+<img src="Research Questions .png" alt="Research Questions">
