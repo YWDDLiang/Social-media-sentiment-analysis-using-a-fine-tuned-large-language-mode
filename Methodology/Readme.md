@@ -29,19 +29,19 @@ The architecture mainly contains the following features which ensure the advanta
 
 The advantage of the Transformer architecture is mainly the ability to ensure parallelization, that is, the ability to process entire sequences at the same time. This is reflected in the ability to recalculate the weights and change the overall result for each piece of information fed into the model. These features make the architecture excellent for natural language processing such as text generation and question and answer systems.
 
-## Advantages of the Llama2 model:
+### Advantages of the Llama2 model:
 - Open source: as an open source model, Llama 2 allows researchers and developers to freely use, modify, and optimize the model, which is very beneficial for driving innovation and application development.
 - Large-scale training data: Large models are usually trained based on a large amount of training data, which helps to improve the model's generalization ability and recognition of complex patterns.
 - Multi-tasking: Large models such as Llama 2 usually have strong transfer learning capabilities and are able to share knowledge and patterns across multiple tasks, thus achieving good performance on new tasks faster.
 
-## Existing studies
+### Existing studies
 Currently we are not able to find papers related to financial analysis using the Llama2 model in online repositories such as Google scholar, and there are cases of using other models in areas related to financial analysis using large language models, which will be covered in the literature.
 
 <img src="Llama2 model.png" alt="Llama2 model">
 
 # LoRA method
 The LoRA approach is based on efficient and precise control of parameter updates for large pre-trained models. The core idea of this method is to represent the changes of model parameters through a low-rank matrix instead of directly updating all parameters in the model. In the fine-tuning process, LoRA introduces two low-rank matrices for the input weight matrix and the output weight matrix. The following is a detailed description of the LoRA logic.
-## LoRA introduction
+### LoRA introduction
 1. initialization and pre-training.
 - LoRA first assumes that there is a large-scale model that has been pre-trained and that these models have been trained on large-scale generalized datasets to learn rich language representations.
 2. low-rank matrix introduction:
@@ -70,7 +70,7 @@ Overall, the logic of LoRA lies in the efficient updating of the parameters of a
 
 # Alpaca-LoRA model
 Alpaca-LoRA is a large-scale language model optimization technique that combines the Alpaca model and the LoRA (Low-Rank Adaptation) method.
-## The following is a detailed description of Alpaca-LoRA:
+### The following is a detailed description of Alpaca-LoRA:
 1. Alpaca model:
 - Alpaca is a large-scale language model designed to provide high-quality language comprehension and generation capabilities.
 - Alpaca is based on the transformer architecture introduced in the previous section, and learns a rich language representation from a large amount of training data.
@@ -91,7 +91,7 @@ In summary, the model is fine-tuned using the LoRA approach to the transformer-b
 
 # Limitation:
 The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
-## Future research:
+# Future research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
 - More parameters, the final results can be made more accurate and comprehensive by introducing more evaluation parameters.
