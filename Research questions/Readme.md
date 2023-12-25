@@ -19,4 +19,4 @@ This study systematically describes how natural language processing techniques a
 This study explores the many ways in which quantitative analysis and deep learning techniques can predict cryptocurrency prices. Cryptocurrency related databases that include quantitative metrics such as price, trading volume, market capitalization, etc. are used in the study.
 - Contribution: This article not only considers traditional economic and financial metrics, but also explores the use of deep learning models, such as recurrent neural networks and convolutional neural networks, in time series forecasting.
 - Limitations: this article does not use real-time updated forum data and has some time limitations.
--Improvement to the study: Achieving more effective and credible predictive analytics by analyzing real-time forum data.
+- Improvement to the study: Achieving more effective and credible predictive analytics by analyzing real-time forum data.
