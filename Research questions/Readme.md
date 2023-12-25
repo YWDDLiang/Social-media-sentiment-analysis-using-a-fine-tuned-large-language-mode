@@ -1,5 +1,6 @@
 # Research questions
-Our study will focus on Aave, a native utility token of a top-one decentralization finance application on Ethereum, and mainly explore how to predict the price of Aave using social sentiment analysis. Besides, we consider a follow-up question, i.e., what is the relationship between the sentiment polarity of tweets and the price of Aave?
+1. Our study will focus on Aave, a native utility token of a top-one decentralization finance application on Ethereum, and mainly explore how to predict the price of Aave using social sentiment analysis. Besides, we consider a follow-up question, i.e., what is the relationship between the sentiment polarity of tweets and the price of Aave?
+2. This study explores the possibility of applying Alpaca LoRA to the field of financial analytics, virtual currency price prediction and what are the advantages of this application?
 ## Significance
 First of all, no actual studies have existed in related fields that put Alpaca LoRA into financial analysis, but three representative studies have been selected for this study in the field of putting big language models into financial analysis. This study draws from the contributions of these studies and improves upon their limitations, which is the importance of this study.
 
