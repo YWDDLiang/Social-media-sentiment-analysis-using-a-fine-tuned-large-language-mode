@@ -50,6 +50,7 @@ The LoRA approach is based on efficient and precise control of parameter updates
 W' = W + U @ V^T
 
 where W is the weight matrix of the original model, W' is the fine-tuned weight matrix, and U and V are the low-rank matrices associated with that linear layer, respectively.
+
 4. fixing and updating:
 - During the fine-tuning process, LoRA fixes all parameters W of the original model and optimizes only the low-rank matrices U and V.
 - This strategy allows the model to adapt to task-specific data by adjusting the low-rank matrices while maintaining most of the pre-training knowledge.
