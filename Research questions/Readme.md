@@ -22,6 +22,7 @@ This study explores the many ways in which quantitative analysis and deep learni
 - Limitations: this article does not use real-time updated forum data and has some time limitations.
 - Improvement to the study: Achieving more effective and credible predictive analytics by analyzing real-time forum data.
 <img src="Research Questions .png" alt="Research Questions">
+
 ```
 @book{kublik2022gpt,
   title={GPT-3},
