@@ -5,7 +5,7 @@
 
 Therefore, this study will first introduce the llama2 model, LoRA method, and Alpaca-LoRA, including the mathematical principles and advantages of using them. This study will also demonstrate the feasibility and innovativeness of this study by analyzing other literature and research in the field of virtual currency price analysis and prediction.
 
-# llama2 model
+# Llama2 model
 The llama2 model is a model based on Google's transformer architecture, a self-attentive mechanism that is able to process input sequences while taking into account information from the global context, rather than relying solely on the local context. This property allows Llama2 to understand and generate complex linguistic structures and to perform better in natural language processing.
 ## Transformer architecture (Vaswani et al. 2017):
 The architecture mainly contains the following features which ensure the advantages of the architecture when analyzing the global context.
@@ -62,3 +62,24 @@ where W is the weight matrix of the original model, W' is the fine-tuned weight 
 - LoRA is updated in a way that is independent of the structure of the original model, which allows it to improve the speed of fine-tuning in parallel computation.
 
 Overall, the logic of LoRA lies in the efficient updating of the parameters of a large pre-trained model through the use of two low-rank matrices, while also maintaining the original structure of the model and most of the training knowledge. The advantage of this approach is the ability to quickly adapt to new tasks with limited resources and maintain a high level of performance.
+
+# Alpaca-LoRA model
+Alpaca-LoRA is a large-scale language model optimization technique that combines the Alpaca model and the LoRA (Low-Rank Adaptation) method.
+## The following is a detailed description of Alpaca-LoRA:
+1. Alpaca model:
+- Alpaca is a large-scale language model designed to provide high-quality language comprehension and generation capabilities.
+- Alpaca is based on the transformer architecture introduced in the previous section, and learns a rich language representation from a large amount of training data.
+2. application of LoRA method:
+- In Alpaca-LoRA, the LoRA method is used to fine-tune the pre-trained Alpaca model to the specific domains needed for the research.
+- LoRA uses two low-rank matrices to fine-tune against the parameters in the model.
+3. parameter efficiency and fast adaptation:
+- The efficiency and speed of the fine-tuning process can be improved by using this model to significantly reduce the number of parameters needed for updating.
+- This parameter efficiency allows the model to adapt quickly to new tasks and maintain a high level of performance with limited computational resources.
+4. Retention of pre-training knowledge:
+- The present model fixes the original parameters of the Alpaca model in the fine-tuning and optimizes only the low-rank matrices U and V.
+- This strategy helps to retain most of the linguistic knowledge learned by the Alpaca model in the pre-training phase, while allowing the model to adapt to new task requirements.
+5. parallelization and scalability:
+- Since LoRA is updated in a way that is independent of the structure of the original model, the present model has good parallelization capabilities and can be further fine-tuned for speed.
+- This feature makes the present model highly scalable in large-scale deployments and distributed training environments.
+
+In summary, the model is fine-tuned using the LoRA approach to the transformer-based Alpaca model so that the Aplaca model can be applied to a variety of natural language processing tasks, including text categorization, sentiment analysis, question and answer systems, machine translation, and text generation.
