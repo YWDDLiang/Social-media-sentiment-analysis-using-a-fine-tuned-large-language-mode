@@ -22,14 +22,14 @@ This study explores the many ways in which quantitative analysis and deep learni
 - Limitations: this article does not use real-time updated forum data and has some time limitations.
 - Improvement to the study: Achieving more effective and credible predictive analytics by analyzing real-time forum data.
 <img src="Research Questions .png" alt="Research Questions">
-
+```
 @book{kublik2022gpt,
   title={GPT-3},
   author={Kublik, Sandra and Saboo, Shubham},
   year={2022},
   publisher={O'Reilly Media, Incorporated}
 }
-```
+
 @article{khedr2021cryptocurrency,
   title={Cryptocurrency price prediction using traditional statistical and machine-learning techniques: A survey},
   author={Khedr, Ahmed M and Arif, Ifra and El-Bannany, Magdi and Alhashmi, Saadat M and Sreedharan, Meenu},
