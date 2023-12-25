@@ -29,7 +29,7 @@ This study explores the many ways in which quantitative analysis and deep learni
   year={2022},
   publisher={O'Reilly Media, Incorporated}
 }
-
+```
 @article{khedr2021cryptocurrency,
   title={Cryptocurrency price prediction using traditional statistical and machine-learning techniques: A survey},
   author={Khedr, Ahmed M and Arif, Ifra and El-Bannany, Magdi and Alhashmi, Saadat M and Sreedharan, Meenu},
@@ -50,3 +50,4 @@ This study explores the many ways in which quantitative analysis and deep learni
   year={2021},
   publisher={Elsevier}
 }
+```
