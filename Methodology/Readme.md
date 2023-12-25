@@ -83,3 +83,34 @@ Alpaca-LoRA is a large-scale language model optimization technique that combines
 - This feature makes the present model highly scalable in large-scale deployments and distributed training environments.
 
 In summary, the model is fine-tuned using the LoRA approach to the transformer-based Alpaca model so that the Aplaca model can be applied to a variety of natural language processing tasks, including text categorization, sentiment analysis, question and answer systems, machine translation, and text generation.
+```
+@article{hu2021lora,
+  title={Lora: Low-rank adaptation of large language models},
+  author={Hu, Edward J and Shen, Yelong and Wallis, Phillip and Allen-Zhu, Zeyuan and Li, Yuanzhi and Wang, Shean and Wang, Lu and Chen, Weizhu},
+  journal={arXiv preprint arXiv:2106.09685},
+  year={2021}
+}
+
+@article{henighan2020scaling,
+  title={Scaling laws for autoregressive generative modeling},
+  author={Henighan, Tom and Kaplan, Jared and Katz, Mor and Chen, Mark and Hesse, Christopher and Jackson, Jacob and Jun, Heewoo and Brown, Tom B and Dhariwal, Prafulla and Gray, Scott and others},
+  journal={arXiv preprint arXiv:2010.14701},
+  year={2020}
+}
+
+@article{vaswani2017attention,
+  title={Attention is all you need},
+  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, {\L}ukasz and Polosukhin, Illia},
+  journal={Advances in neural information processing systems},
+  volume={30},
+  year={2017}
+}
+
+@inproceedings{rush2018annotated,
+  title={The annotated transformer},
+  author={Rush, Alexander M},
+  booktitle={Proceedings of workshop for NLP open source software (NLP-OSS)},
+  pages={52--60},
+  year={2018}
+}
+```
