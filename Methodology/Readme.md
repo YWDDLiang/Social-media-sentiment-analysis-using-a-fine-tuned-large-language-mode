@@ -109,6 +109,54 @@ In short, this step iterates through the entire DataFrame with an outer loop, an
 
 <img src="step_3.jpg" alt="step_3">
 
+# Data Analysis.
+- Step 1: Import the nvidia-smi module, create a new virtualenv, install huggingface-hub, transformers and torch.
+- Step 2: Initialize a language model object using the pre-trained model LlamaForCausalLM from Hugging Face and run it with floating-point 16-precision to improve performance.
+- Step 3: Clone the online repository locally and read the dataset from the specified file using the load_dataset function from the HuggingFace library. Finally, the prompt method is generated to enter a piece of text describing the task and provide contextual information to get a response from the robot.
+- Step 4: This paragraph has two main functions, tokenize and generate_and_tokenize_prompt.
+
+#### Explanation for functions
+Among them, the tokenize function is used to convert the prompt to a list of token IDs. It accepts two arguments: the prompt string and a boolean indicating whether to add an EOS token to the end of the prompt. If there is no EOS token, it checks whether results['input_ids'][-1] is equal to tokenizer.eos_token_id. If it is, it appends the EOS token to results['input_ids'] and updates attention_mask and label accordingly. otherwise, it directly copies results['input_ids'][-1] to results['input_ids']. 'input_ids'] as new 'labels'. Finally return the processed results.
+
+The generate_and_tokenize_prompt function takes a data point, calls the generate_prompt method to generate the complete prompt, and then calls the tokenize method to encode it. The encoded complete prompt is returned.
+
+- Step 4: Configure some key parameters of the LoRA algorithm and prepare the model to be used for micro-stepping training.
+
+#### The role of each parameter is broadly described here:
+LORA_R (integer): this parameter determines the size of the Lora architecture.
+
+LORA_ALPHA (real number): This parameter controls the regularization strength.
+
+LORA_DROPOUT (real): This parameter determines the ratio of the dropout.
+
+LORA_TARGET_MODULES: It is a list containing the target modules.
+
+BATCH_SIZE (integer) and related parameters: These parameters determine the batch size, batch size within a batch, and other related training details.
+
+- Step 5: Micro-stepping the pre-trained model using the TRANSFORMER library.
+
+#### First define the training parameters, where:
+per_device_train_batch_size: training batch size on each device.
+
+gradient_accumulation_steps: step size for gradient accumulation.
+
+Next initialize the DataCollatorForSeqSeq object, which is responsible for feedforward delivery.
+- Step 6: Create a Trainer instance, which consists of the following components.
+
+#### Explanation for factors
+model: The PyTorch model responsible for performing predictions and other computations.
+
+train_dataset: The training dataset.
+
+eval_dataset: Evaluation/test dataset.
+
+args: Dictionary containing various hyperparameters.
+
+data_collator: A data collector responsible for combining multiple samples into a single tensor.
+
+- Step 7: Train the model.
+- Step 8: Import the relevant dependency packages for TensorBoard and HuggingFaceHub, and then load the Tensorboard log file. Then refresh the Tensorboard and submit the model to the Hugging Face Hub account.
+
 # Limitation:
 The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
 # Future research:
