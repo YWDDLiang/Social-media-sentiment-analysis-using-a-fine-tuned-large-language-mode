@@ -109,7 +109,7 @@ In short, this step iterates through the entire DataFrame with an outer loop, an
 
 <img src="step_3.jpg" alt="step_3">
 
-# Data Analysis.
+# Data Analysis
 - Step 1: Import the nvidia-smi module, create a new virtualenv, install huggingface-hub, transformers and torch.
 <img src="da1.jpg" alt="da1">
 
