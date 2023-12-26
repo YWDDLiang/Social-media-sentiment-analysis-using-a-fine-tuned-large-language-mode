@@ -97,6 +97,7 @@ In summary, the model is fine-tuned using the LoRA approach to the transformer-b
 <img src="load_data.jpg" alt="load_data">
 
 - Step 2: First create two lists has_read and Not_available. Then iterate through the AuthorID in df, if the ID is not_available then skip this loop, otherwise check whether the ID has been read, if it has been read then continue, otherwise add this author to the has_read list. Then start calculating the sentiment score for each reader, then store the sentiment score in the sentiment[] array.
+
 In short, this step iterates through the entire DataFrame with an outer loop, and then determines whether the average sentiment score of each record belongs to the positive, neutral or negative sentiment with an inner loop.
 - Step 3: Store these sentiment labels in final_sentiment and insert them into the corresponding positions of the sentiment[] array.
 
