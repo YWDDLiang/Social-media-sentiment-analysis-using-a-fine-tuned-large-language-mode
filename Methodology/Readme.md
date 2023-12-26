@@ -172,6 +172,8 @@ data_collator: A data collector responsible for combining multiple samples into 
 # Limitation:
 The model in this study is not able to make quantified predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
 
+The dataset order of magnitude is too small and needs to be increased by one or two orders of magnitude to ensure sufficient data. roughly 0.1M is needed to be able to meet the right amount of data.
+
 # Future research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
