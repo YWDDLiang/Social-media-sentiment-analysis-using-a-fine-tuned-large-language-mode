@@ -94,19 +94,19 @@ In summary, the model is fine-tuned using the LoRA approach to the transformer-b
 # Data process
 - Step 1: First load pandas and then read the file to be processed into df. Then calculate the Average sentiment score corresponding to each AuthorID and store the result in df1.
 
-<img src="LoRA method.png" alt="LoRA method">
+<img src="load_data.jpg" alt="load_data">
 
 - Step 2: First create two lists has_read and Not_available. Then iterate through the AuthorID in df, if the ID is not_available then skip this loop, otherwise check whether the ID has been read, if it has been read then continue, otherwise add this author to the has_read list. Then start calculating the sentiment score for each reader, then store the sentiment score in the sentiment[] array.
 In short, this step iterates through the entire DataFrame with an outer loop, and then determines whether the average sentiment score of each record belongs to the positive, neutral or negative sentiment with an inner loop.
 - Step 3: Store these sentiment labels in final_sentiment and insert them into the corresponding positions of the sentiment[] array.
 
-<img src="LoRA method.png" alt="LoRA method">
+<img src="step_2.jpg" alt="step_2">
 
 - Step 4: Import the random library and set the random number seed to 42. initialize two empty lists dataset_data and has_read. then calculate how many different author_id's there are.
 - Step 5: Filter out the author_id's that are not in the Not_available list. for each remaining id, check if it appears in the has_read list, if it does pass it directly, otherwise add it to has_read list.
 - Step 6: Store the sentiment output in data_dict before appending it to dataset_data list. Finally store the above output as .json file.
 
-<img src="LoRA method.png" alt="LoRA method">
+<img src="step_3.jpg" alt="step_3">
 
 # Limitation:
 The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
