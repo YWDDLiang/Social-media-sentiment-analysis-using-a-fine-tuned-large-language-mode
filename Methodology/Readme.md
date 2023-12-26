@@ -170,7 +170,7 @@ data_collator: A data collector responsible for combining multiple samples into 
 <img src="da7.jpg" alt="da7">
 
 # Limitation:
-The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
+The model in this study is not able to make quantified predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
 
 # Future research:
 As of now, the parts of the model that can be improved in this study include the following:
