@@ -168,13 +168,16 @@ data_collator: A data collector responsible for combining multiple samples into 
 
 - Step 9: Import the relevant dependency packages for TensorBoard and HuggingFaceHub, and then load the Tensorboard log file. Then refresh the Tensorboard and submit the model to the Hugging Face Hub account.
 <img src="da7.jpg" alt="da7">
+
 # Limitation:
 The model in this study is not able to make high precision predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
+
 # Future research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
 - More parameters, the final results can be made more accurate and comprehensive by introducing more evaluation parameters.
 - More computer resources, better performance gpu can be used to train the model and finally achieve accurate numerical prediction.
+
 ```
 @article{hu2021lora,
   title={Lora: Low-rank adaptation of large language models},
