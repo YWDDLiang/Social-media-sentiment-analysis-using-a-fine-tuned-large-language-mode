@@ -112,10 +112,13 @@ In short, this step iterates through the entire DataFrame with an outer loop, an
 # Data Analysis.
 - Step 1: Import the nvidia-smi module, create a new virtualenv, install huggingface-hub, transformers and torch.
 <img src="da1.jpg" alt="da1">
+
 - Step 2: Initialize a language model object using the pre-trained model LlamaForCausalLM from Hugging Face and run it with floating-point 16-precision to improve performance.
 <img src="da2.jpg" alt="da2">
+
 - Step 3: Clone the online repository locally and read the dataset from the specified file using the load_dataset function from the HuggingFace library. Finally, the prompt method is generated to enter a piece of text describing the task and provide contextual information to get a response from the robot.
 <img src="da3.jpg" alt="da3">
+
 - Step 4: This paragraph has two main functions, tokenize and generate_and_tokenize_prompt.
 
 #### Explanation for functions
@@ -123,6 +126,7 @@ Among them, the tokenize function is used to convert the prompt to a list of tok
 
 The generate_and_tokenize_prompt function takes a data point, calls the generate_prompt method to generate the complete prompt, and then calls the tokenize method to encode it. The encoded complete prompt is returned.
 <img src="da4.jpg" alt="da4">
+
 - Step 5: Configure some key parameters of the LoRA algorithm and prepare the model to be used for micro-stepping training.
 
 #### The role of each parameter is broadly described here:
@@ -136,6 +140,7 @@ LORA_TARGET_MODULES: It is a list containing the target modules.
 
 BATCH_SIZE (integer) and related parameters: These parameters determine the batch size, batch size within a batch, and other related training details.
 <img src="da5.jpg" alt="da5">
+
 - Step 6: Micro-stepping the pre-trained model using the TRANSFORMER library.
 
 #### First define the training parameters, where:
@@ -144,6 +149,7 @@ per_device_train_batch_size: training batch size on each device.
 gradient_accumulation_steps: step size for gradient accumulation.
 
 Next initialize the DataCollatorForSeqSeq object, which is responsible for feedforward delivery.
+
 - Step 7: Create a Trainer instance, which consists of the following components.
 
 #### Explanation for factors
@@ -157,7 +163,9 @@ args: Dictionary containing various hyperparameters.
 
 data_collator: A data collector responsible for combining multiple samples into a single tensor.
 <img src="da6.jpg" alt="da6">
+
 - Step 8: Train the model.
+
 - Step 9: Import the relevant dependency packages for TensorBoard and HuggingFaceHub, and then load the Tensorboard log file. Then refresh the Tensorboard and submit the model to the Hugging Face Hub account.
 <img src="da7.jpg" alt="da7">
 # Limitation:
