@@ -14,7 +14,7 @@
       - [Study 3: "Forecasting the price of Bitcoin using deep learning"](./Research_questions)
 3. [**Methodology**](./Methodology)
    - [Introduction to Methodology](./Methodology/#Thisresearchusesthefollowingsteps:)
-   - [Llama2 model](./Methodology/#Llama2 model)
+   - [Llama2 model](./Methodology/#Llama2_model)
    - [Transformer architecturel](./Methodology/#Transformerarchitecture(Vaswanietal.2017):)
 4. [**Code**](./Code)
    - [Flowchart](./Code/#abstract)
