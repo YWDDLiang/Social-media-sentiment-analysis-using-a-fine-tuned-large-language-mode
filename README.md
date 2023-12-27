@@ -15,10 +15,17 @@
 3. [**Methodology**](./Methodology)
    - [Introduction to Methodology](./Methodology/#Thisresearchusesthefollowingsteps:)
    - [Llama2 model](./Methodology/#Llama2_model)
-   - [Transformer architecturel](./Methodology/#Transformerarchitecture(Vaswanietal.2017):)
-4. [**Code**](./Code)
-   - [Flowchart](./Code/#abstract)
-5. [**Method**](./Method)
+   - [Transformer architecturel](./Methodology)
+   - [LoRA method](./Methodology/#LoRA_method)
+   - [Alpaca-LoRA model](./Methodology/#Alpaca-LoRA_model)
+   - [Data process](./Methodology/#Data_process)
+   - [Data Analysis](./Methodology/#Data_Analysis)
+   - [Limitation](./Methodology/#Limitation:)
+   - [Future research](./Methodology/#Future_research:)
+4. [**Application Scenario**](./Application_Scenario)
+5. [**Code**](./code)
+6. [**Data**](./data)
+7. [**Result**](./Result)
 
 
 ## More About the Authors
