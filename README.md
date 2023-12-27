@@ -23,8 +23,8 @@
    - [Limitation](./Methodology/#Limitation:)
    - [Future research](./Methodology/#Future_research:)
 4. [**Application Scenario**](./Application_Scenario)
-5. [**Code**](./code)
-6. [**Data**](./data)
+5. [**Data**](./data)
+6. [**Code**](./code)
 7. [**Result**](./Result)
 
 
