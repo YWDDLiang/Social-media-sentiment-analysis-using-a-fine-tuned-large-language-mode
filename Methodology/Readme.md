@@ -172,14 +172,14 @@ data_collator: A data collector responsible for combining multiple samples into 
 # Limitation:
 The model in this study is not able to make quantified predictions, and is only able to make POSITIVE, NEGATIVE, and NEUTRAL predictions. The limitation of this model is that it is not able to output the exact trend and values, which can be improved in the future research.
 
-The dataset is too small and needs to be increased by one or two orders of magnitude to ensure sufficient data. roughly 0.1M is needed to be able to meet the right amount of data.
+The dataset is too small and needs to be increased by one or two orders of magnitude to ensure sufficient data. roughly 0.1M is needed to be able to meet the right amount of data. The model suffers from underfitting, which at this stage is thought to be due to the input data not being fully cleaned, having a relatively high amount of noise, and using a relatively small dataset.
 
 # Future research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
 - More parameters, the final results can be made more accurate and comprehensive by introducing more evaluation parameters.
 - More computer resources, better performance gpu can be used to train the model and finally achieve accurate numerical prediction.
-
+- We need to re-clean the data while expanding the dataset, and in the meantime, aim to use Llama30b instead of Llama7b to enhance the language model intelligence with more parameters
 ```
 @article{hu2021lora,
   title={Lora: Low-rank adaptation of large language models},
