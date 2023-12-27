@@ -7,7 +7,7 @@ Therefore, this study will first introduce the llama2 model, LoRA method, and Al
 
 Then we will introfuce the data process step, which shows how data gathered from online resources can be processed to fit the requirements of the model.
 
-# Llama2 model
+# Llama2_model
 The llama2 model is a model based on Google's transformer architecture, a self-attentive mechanism that is able to process input sequences while taking into account information from the global context, rather than relying solely on the local context. This property allows Llama2 to understand and generate complex linguistic structures and to perform better in natural language processing.
 ## Transformer architecture (Vaswani et al. 2017):
 The architecture mainly contains the following features which ensure the advantages of the architecture when analyzing the global context.
@@ -41,7 +41,7 @@ Currently we are not able to find papers related to financial analysis using the
 
 <img src="Llama2 model.png" alt="Llama2 model">
 
-# LoRA method
+# LoRA_method
 The LoRA approach is based on efficient and precise control of parameter updates for large pre-trained models. The core idea of this method is to represent the changes of model parameters through a low-rank matrix instead of directly updating all parameters in the model. In the fine-tuning process, LoRA introduces two low-rank matrices for the input weight matrix and the output weight matrix. The following is a detailed description of the LoRA logic.
 ### LoRA introduction
 #### 1. initialization and pre-training.
@@ -70,7 +70,7 @@ Overall, the logic of LoRA lies in the efficient updating of the parameters of a
 
 <img src="LoRA method.png" alt="LoRA method">
 
-# Alpaca-LoRA model
+# Alpaca-LoRA_model
 Alpaca-LoRA is a large-scale language model optimization technique that combines the Alpaca model and the LoRA (Low-Rank Adaptation) method.
 ### The following is a detailed description of Alpaca-LoRA:
 #### 1. Alpaca model:
@@ -91,7 +91,7 @@ Alpaca-LoRA is a large-scale language model optimization technique that combines
 
 In summary, the model is fine-tuned using the LoRA approach to the transformer-based Alpaca model so that the Aplaca model can be applied to a variety of natural language processing tasks, including text categorization, sentiment analysis, question and answer systems, machine translation, and text generation.
 
-# Data process
+# Data_process
 - Step 1: First load pandas and then read the file to be processed into df. Then calculate the Average sentiment score corresponding to each AuthorID and store the result in df1.
 
 <img src="load_data.jpg" alt="load_data">
@@ -109,7 +109,7 @@ In short, this step iterates through the entire DataFrame with an outer loop, an
 
 <img src="step_3.jpg" alt="step_3">
 
-# Data Analysis
+# Data_Analysis
 - Step 1: Import the nvidia-smi module, create a new virtualenv, install huggingface-hub, transformers and torch.
 <img src="da1.jpg" alt="da1">
 
@@ -174,7 +174,7 @@ The model in this study is not able to make quantified predictions, and is only 
 
 The dataset is too small and needs to be increased by one or two orders of magnitude to ensure sufficient data. roughly 0.1M is needed to be able to meet the right amount of data. The model suffers from underfitting, which at this stage is thought to be due to the input data not being fully cleaned, having a relatively high amount of noise, and using a relatively small dataset.
 
-# Future research:
+# Future_research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
 - More parameters, the final results can be made more accurate and comprehensive by introducing more evaluation parameters.
