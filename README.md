@@ -6,7 +6,7 @@
 - Project Summary:
 ## Table Of Contents:
 1. [**Self Introduction**](#self-introduction)
-2. [**Research Questions**]([Research_questions](https://github.com/YWDDLiang/llm_research/tree/main/Research_questions#research-questions))
+2. [**Research Questions**](./Research Questions)
    1. [Part I](./Literature/#Literature)
       - [Explanation](./Literature/#Literature)
       - [What is SALib and Morris?](./Literature/#Literature)
