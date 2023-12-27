@@ -6,7 +6,7 @@
 - Project Summary:
 ## Table Of Contents:
 1. [**Self Introduction**](#self-introduction)
-2. [**Research Questions**](./Research Questions)
+2. [**Research Questions**](./Research_questions)
    1. [Part I](./Literature/#Literature)
       - [Explanation](./Literature/#Literature)
       - [What is SALib and Morris?](./Literature/#Literature)
