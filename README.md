@@ -1,7 +1,7 @@
 # Social Media Sentiment Analysis Using a Fine-tuned Large Language Model
 - This project is an initial preparation phase for social media sentiment analysis using a fine-tuned large language model. There are certain shortcomings, which will be addressed and improved in the future.
 ## Project Information:
-- Author:
+- Author (in no particular order): Yiwei Liang; Jiaolun Zhou.
 - Instructor:
 - Project Summary:
 ## Table Of Contents:
