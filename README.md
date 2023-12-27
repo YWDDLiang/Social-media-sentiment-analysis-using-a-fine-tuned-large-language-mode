@@ -15,7 +15,7 @@
 3. [**Methodology**](./Methodology)
    - [Introduction to Methodology](./Methodology/#Thisresearchusesthefollowingsteps:)
    - [Llama2 model](./Methodology/#Llama2model)
-   - [Transformer architecturel](./Methodology/#Transformerarchitecture)
+   - [Transformer architecturel](./Methodology/#Transformerarchitecture(Vaswanietal.2017):)
 4. [**Code**](./Code)
    - [Flowchart](./Code/#abstract)
 5. [**Method**](./Method)
