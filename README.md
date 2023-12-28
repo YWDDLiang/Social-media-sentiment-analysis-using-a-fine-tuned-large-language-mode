@@ -2,7 +2,7 @@
 - This project is an initial preparation phase for social media sentiment analysis using a fine-tuned large language model. There are certain shortcomings, which will be addressed and improved in the future.
 ## Project Information:
 - Author (in no particular order): Yiwei Liang; Jiaolun Zhou.
-- Instructor:
+- Instructor: Prof.Luyao Zhang
 - Project Summary: At this stage, the project uses the Llama2 , LoRA method and the Alpaca LoRA model for the study, based on user comments collected from online forums to train a model capable of making an analysis of cryptal price data based on daily forum data. The model is not able to analyze the cryptal price quantitatively, but only able to make "positive", "negative" and "neutral" judgments on the cryptal price trend. In the future, larger orders of magnitude of data and Llama30b can be used to correct this limitation.
 
 Upon completion of this project, it is expected to be put into practical production in the following areas:
@@ -40,10 +40,9 @@ Overall, our project has great potential for the industrial sector, and at the s
 ## More About the Authors
 ### Yiwei Liang
 - <img src="Author/Yiwei.jpg" alt="Yiwei" width="220"/>
-#### Contributions:
 #### Self-introduction:
+I am Yiwei Liang.
 ### Jiaolun Zhou
 - <img src="Author/Jiaolun.jpg" alt="Yiwei" width="220"/>
-#### Contributions:
 #### Self-introduction:
 I am Zhou Qiaolun from the Department of Computer Science at Duke Kunshan University, working on IoT and machine learning, and I am honored to be able to participate in this research and contribute to virtual currency price prediction and the future development of the financial market.
