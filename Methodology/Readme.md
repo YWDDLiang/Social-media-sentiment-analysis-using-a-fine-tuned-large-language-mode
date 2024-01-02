@@ -174,6 +174,15 @@ The model in this study is not able to make quantified predictions, and is only 
 
 The dataset is too small and needs to be increased by one or two orders of magnitude to ensure sufficient data. roughly 0.1M is needed to be able to meet the right amount of data. The model suffers from underfitting, which at this stage is thought to be due to the input data not being fully cleaned, having a relatively high amount of noise, and using a relatively small dataset.
 
+# Why this research has limitations
+In order to explain the reason why this model is sometimes inaccurate, this study refers to the paper "Survey of Hallucination in Natural Language Generation" to explain the factors that may have an impact.
+
+This paper describes recent deep learning-based natural language generation techniques, especially the Transformer architecture model used in this study, which significantly improves the quality and fluency of text generation. They perform well in downstream tasks such as summary generation, dialog systems, and data-to-text conversion; however, these deep learning-based methods are prone to the problem of "hallucination" during the generation process, i.e., the generation of unanticipated or factually inaccurate text content.
+
+The reason for this inaccuracy is mainly due to the black-box model in the generation process, which lacks the ability to strictly judge the authenticity and comprehensiveness of the input information. Models may rely too heavily on statistical patterns in the training data for prediction, and when faced with complex, ambiguous, or rare situations, the model may create fictional content based on an underlying pattern learned during training rather than an actual sentence, leading to the phenomenon of hallucination.
+
+This study is still looking for ways to solve the problem, and the referenced paper is included here to help future researchers solve the problem.
+
 # Future_research:
 As of now, the parts of the model that can be improved in this study include the following:
 - Larger dataset, the dataset of this study can be enlarged by collecting data from more forums and authoritative websites that are updated in real time.
@@ -209,5 +218,16 @@ As of now, the parts of the model that can be improved in this study include the
   booktitle={Proceedings of workshop for NLP open source software (NLP-OSS)},
   pages={52--60},
   year={2018}
+}
+
+@article{ji2023survey,
+  title={Survey of hallucination in natural language generation},
+  author={Ji, Ziwei and Lee, Nayeon and Frieske, Rita and Yu, Tiezheng and Su, Dan and Xu, Yan and Ishii, Etsuko and Bang, Ye Jin and Madotto, Andrea and Fung, Pascale},
+  journal={ACM Computing Surveys},
+  volume={55},
+  number={12},
+  pages={1--38},
+  year={2023},
+  publisher={ACM New York, NY}
 }
 ```
