@@ -25,7 +25,7 @@ This paragraph is used to elucidate the strengths and weaknesses of each of the 
 - Cost: While AWS offers a flexible pay-as-you-go model, the cost of certain advanced machine learning instances can be relatively high, especially for large-scale training tasks that run for long periods of time.
 - Complexity: With so many services, users need to spend time finding the best combination of resources. In addition, as ML workloads change and resources need to be dynamically adjusted, more O&M experience may be required to optimize cost and performance.
 - Data transfer costs: Although AWS provides a robust global infrastructure, migrating large amounts of data from local environments to S3 or other storage services can incur high outbound data costs. The cost of data movement is a consideration for machine learning projects that rely on large-scale datasets for training.
-## Microsoft Azure Benefits:
+## Microsoft Azure Advantages:
 - High-performance VMs: Azure provides NCv3/NCv4 series VMs with built-in NVIDIA Tesla V100 or A100 GPUs suitable for deep learning training. In addition, Azure Machine Learning Compute can be dynamically scaled to fit training needs.
 - Azure Machine Learning Service: Similar to AWS SageMaker, Azure ML provides a one-stop machine learning development environment, including automated model training, versioning and deployment capabilities.
 - Integration and Collaboration: Azure Synapse Analytics, Data Factory and other data services are tightly integrated to help streamline data pipelines and machine learning processes. Microsoft works closely with the open source community and has good support for frameworks such as PyTorch and TensorFlow.
@@ -33,7 +33,7 @@ This paragraph is used to elucidate the strengths and weaknesses of each of the 
 ## Microsoft Azure Disadvantages:
 - Low pricing transparency: Azure's service pricing model is not intuitive enough, especially when it comes to scaling large-scale compute resources on demand. Understanding and optimizing costs can be a challenge for long-running machine learning training tasks.
 - Compatibility and migration issues: For customers using non-Microsoft ecosystems, deploying and maintaining machine learning models built on open source frameworks such as TensorFlow on Azure may face compatibility or migration difficulties compared to other platforms.
-## Advantages of Google Cloud Platform (GCP):
+## Google Cloud Platform (GCP) Advantages:
 - High-performance computing: GCP provides instances of NVIDIA T4, V100, or A100 GPUs in Compute Engine for efficient machine learning training.Cloud TPUs are tensor processing units designed specifically for machine learning, and are particularly adept at accelerating training in the TensorFlow framework.
 - Deep Integration: Google Cloud AI Platform provides a complete solution from data preparation to model training, evaluation, and deployment, and is deeply integrated with interactive development environments such as Google Colab.
 - Open Source Contributions and Optimization: As a major contributor to TensorFlow, GCP has an advantage in native support and optimization, making the experience better for developers using TensorFlow.
