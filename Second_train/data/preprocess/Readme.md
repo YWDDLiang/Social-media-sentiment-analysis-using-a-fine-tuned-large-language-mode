@@ -2,9 +2,9 @@
 This research will be divided into several steps to process the data and train the model, and this page explains the principles and advantages of the techniques used in the research process.
 
 #### Below are the three sections that will be highlighted on this page:
-- 1. [**Data processing + NLP + Polynomial Regression**](./Second_train/data/preprocess/Data_processing_+_NLP_+_Polynomial_Regression)
-- 2. [**Big data packages Packages for processing big data**](./Second_train/data/preprocess/Comparison_for_various_types_of_big_data_processing_packages)
-- 3. [**Parallel Computing**](./Second_train/data/preprocess/Parallel_Computing)
+- 1. [**Data processing + NLP + Polynomial Regression**](./Second_train/data/preprocess/#Data_processing_+_NLP_+_Polynomial_Regression)
+- 2. [**Big data packages Packages for processing big data**](./Second_train/data/preprocess/#Comparison_for_various_types_of_big_data_processing_packages)
+- 3. [**Parallel Computing**](./Second_train/data/preprocess/#Parallel_Computing)
 #### Data_processing_+_NLP_+_Polynomial_Regression
 **Mathematical Principles**: polynomial regression is a nonlinear regression model that establishes a nonlinear relationship between the dependent and independent variables by mapping the independent variable to a higher power.
 
