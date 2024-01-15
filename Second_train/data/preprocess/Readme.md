@@ -13,7 +13,7 @@ The general form of a polynomial regression model can be written:
  $$ \[ y = f(x) = \beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 + \cdots + \beta_n x^n + \epsilon \] $$
 
 Among them:
-- \( y \) is the dependent variable (response variable).
+- $\( y \)$ is the dependent variable (response variable).
 - \( x \) is the independent variable (characterization variable), which is raised to different powers in polynomial regression to capture nonlinear relationships.
 - \( \beta_0, \beta_1, ... , \beta_n \) are the coefficients of the model, where \( \beta_0 \) is the intercept term, \( \beta_1, ... , \beta_n \) are the coefficients of the model, where \( \beta_0\) is the intercept term, and \( \beta_1, ... \beta_n \) corresponds to the coefficients of polynomials of order \( x \) up to order \( n \).
 - The \( \epsilon \) is a random error term, which is usually assumed to be independently and identically distributed noise with zero mean.
