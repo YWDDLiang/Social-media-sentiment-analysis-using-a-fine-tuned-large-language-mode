@@ -31,3 +31,4 @@ In this equation m is the sample size, and by taking the partial derivative of R
 
 $$ X^T X \boldsymbol{\beta} = X^T y $$
 
+It is important to note that when using polynomial regression, one needs to be wary of overfitting, especially when choosing higher order polynomials. Model complexity can be controlled and generalization improved through cross-validation, regularization (e.g., ridge regression or Lasso regression), or other model selection techniques.
