@@ -57,3 +57,27 @@ It is important to note that when using polynomial regression, one needs to be w
 **Amdahl's law**: Amdahl's law describes the maximum speedup ratio that can be achieved by increasing the number of processors in the presence of serial sections. Assuming that the proportion of the part of the system that can be executed in parallel is f, then the remaining part is the part that must be executed serially, and its speedup ratio S can be expressed by the following equation: the speedup ratio $\( S \)$ is defined by Amdahl's law as follows: $$\( S = \frac{1}{(1 - f) + \frac{f}{p}} \)\)$$
 
 **Gustafson-Barsis Law (also known as Gustafson's Law)** : The Gustafson-Barsis law is an extension of Amdahl's law that takes into account the situation where the size of the problem grows proportionally as hardware resources grow. In this case, the total workload W can be divided into a serial part $W\_S$ and a parallel part $W\_p$ , and the processing power of the whole system grows linearly as more processors are added. The basic idea is that as the number of processors grows, not only does the parallel part speed up, but the size of the problem being processed also increases.
+
+- Strengths:
+
+**Improved computational efficiency**: parallel computing significantly reduces overall computation time because multiple processors can work simultaneously, dramatically increasing the speed of operations.
+
+**Solve Large-Scale Problems**: For large-scale data sets or highly complex computing tasks that cannot be processed in real-time by a single processor, such as big data analysis, simulation, machine learning training, etc., results can be obtained in a reasonable amount of time through parallel computing.
+
+**Resource Utilization**: Through parallel computing, idle computing resources can be effectively utilized, reducing the risk of single point of failure and enhancing the fault tolerance and reliability of the system.
+
+**Scalability**: With the development of technology, the computing power can be linearly expanded by adding more processors or computing nodes to adapt to the growing demand for data processing.
+
+- Parallel computing is suitable for this study for the following reasons:
+
+**Data preprocessing**: the NLP processing session requires word splitting, word vectorization, etc. for a large amount of text, and these operations are well suited for parallelization, where each core can process a portion of the document independently, speeding up the overall processing speed.
+
+**Feature Extraction**: polynomial regression and other machine learning model construction will involve a large amount of feature engineering, many of these steps (e.g., statistical metrics computation, matrix operations, etc.) have inherent parallelism.
+
+**Model Training**: During deep learning and machine learning model training, gradient computation and parameter updates can be performed using data-parallel, model-parallel, or mixed-parallel strategies to accelerate training convergence using multi-core CPUs or GPUs.
+
+**Streaming Data Processing**: If the research also includes real-time or near-real-time analysis of news data streams, the use of parallel stream processing frameworks (such as Apache Flink or Spark Streaming) enables the processing of newly generated data in real-time and rapid prediction.
+
+**CONCLUSION**: Parallel computing enables research teams to process large amounts of text in a shorter period of time and efficiently build and optimize models, thus improving the ability to predict financial data.
+
+Translated with DeepL.com (free version)
