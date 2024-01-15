@@ -10,7 +10,7 @@ This research will be divided into several steps to process the data and train t
 
 The general form of a polynomial regression model can be written:
 
-$$ \[ y = f(x) = \beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 + \cdots + \beta_n x^n + \epsilon \] $$
+ \[ y = f(x) = \beta_0 + \beta_1 x + \beta_2 x^2 + \beta_3 x^3 + \cdots + \beta_n x^n + \epsilon \] 
 
 Among them:
 - \( y \) is the dependent variable (response variable).
