@@ -4,7 +4,7 @@ This research will be divided into several steps to process the data and train t
 #### Below are the three sections that will be highlighted on this page:
 - 1. [**Data processing + NLP + Polynomial Regression**](./Second_train/data/preprocess/#Data_processing_+_NLP_+_Polynomial_Regression:)
 - 2. [**Big data packages Packages for processing big data**](./Second_train/data/preprocess/#Comparison_for_various_types_of_big_data_processing_packages:)
-- 3. [**Parallel Computing**](./Second_train/data/preprocess/#Parallel_Computing:)
+- 3. [**Parallel Computing**]([./Second_train/data/preprocess/#Parallel_Computing:](https://github.com/YWDDLiang/Initial-preparation-for-social-media-sentiment-analysis-using-a-fine-tuned-large-language-mode/blob/main/Second_train/data/preprocess/Readme.md#data_processing_nlp_polynomial_regression))
 #### Data_processing_+_NLP_+_Polynomial_Regression
 **Mathematical Principles**: polynomial regression is a nonlinear regression model that establishes a nonlinear relationship between the dependent and independent variables by mapping the independent variable to a higher power.
 
