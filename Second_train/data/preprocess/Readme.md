@@ -25,7 +25,7 @@ In practice, we estimate the model parameters $\(\beta \)$ by minimizing the res
 
 $$ RSS(\beta) = \sum_{i=1}^{m}(y_i - f(x_i))^2 $$
 
-In this equation m is the sample size, and by taking the partial derivative of RSS and making it equal to zero, a set of linear equations can be obtained for the \beta parameter, and solving this set of equations yields a least squares estimate of \beta.
+In this equation m is the sample size, and by taking the partial derivative of RSS and making it equal to zero, a set of linear equations can be obtained for the $\beta$ parameter, and solving this set of equations yields a least squares estimate of $\beta$.
 - Gradient descent: Gradient descent is an optimization algorithm used to find the local minima of the loss function. For polynomial regression, we can define a loss function such as the mean square error, then compute the gradient of that function with respect to each coefficient and update the parameter values in the direction opposite to the gradient until a predefined stopping condition is reached (e.g., the gradient is sufficiently small or the number of iterations reaches an upper limit).
 - Regular equations: for linear regression problems, when the dimensionality of the independent variables is not very high, the parameters can be solved directly by matrix operations. In polynomial regression, even though the model is nonlinear, the model can be transformed into linear regression form during processing, so in regular use, researchers usually adopt the method of formal equations to solve the optimal parameters at one time, the equations are as follows:
 
