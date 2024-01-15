@@ -14,11 +14,11 @@ The general form of a polynomial regression model can be written:
 
 Among them:
 - $\( y \)$ is the dependent variable (response variable).
-- \( x \) is the independent variable (characterization variable), which is raised to different powers in polynomial regression to capture nonlinear relationships.
-- \( \beta_0, \beta_1, ... , \beta_n \) are the coefficients of the model, where \( \beta_0 \) is the intercept term, \( \beta_1, ... , \beta_n \) are the coefficients of the model, where \( \beta_0\) is the intercept term, and \( \beta_1, ... \beta_n \) corresponds to the coefficients of polynomials of order \( x \) up to order \( n \).
-- The \( \epsilon \) is a random error term, which is usually assumed to be independently and identically distributed noise with zero mean.
+- $\( x \)$ is the independent variable (characterization variable), which is raised to different powers in polynomial regression to capture nonlinear relationships.
+- $\( \beta_0, \beta_1, ... , \beta_n \)$ are the coefficients of the model, where $\( \beta_0 \)$ is the intercept term, $\( \beta_1, ... , \beta_n \)$ are the coefficients of the model, where $\( \beta_0\)$ is the intercept term, and $\( \beta_1, ... \beta_n \)$ corresponds to the coefficients of polynomials of order $\( x \) up to order \( n \)$.
+- The $\( \epsilon \)$ is a random error term, which is usually assumed to be independently and identically distributed noise with zero mean.
 
-In practice, we estimate the model parameters \(\beta \) by minimizing the residual sum of squares (RSS) or by using regular equations, for example. Once the optimal coefficient estimates are obtained, the model can be utilized for predictive analysis.
+In practice, we estimate the model parameters $\(\beta \)$ by minimizing the residual sum of squares (RSS) or by using regular equations, for example. Once the optimal coefficient estimates are obtained, the model can be utilized for predictive analysis.
  
 **Mathematical Foundations**:
 - Least Squares Estimation: in polynomial regression, the most commonly used method of parameter estimation is the least squares method. The goal of this method is to minimize the sum of squares of the residuals, which is the sum of squares of the difference between the predicted and true values for all sample points. The mathematical representation is:
