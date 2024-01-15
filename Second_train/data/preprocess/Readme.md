@@ -78,6 +78,4 @@ It is important to note that when using polynomial regression, one needs to be w
 
 **Streaming Data Processing**: If the research also includes real-time or near-real-time analysis of news data streams, the use of parallel stream processing frameworks (such as Apache Flink or Spark Streaming) enables the processing of newly generated data in real-time and rapid prediction.
 
-**CONCLUSION**: Parallel computing enables research teams to process large amounts of text in a shorter period of time and efficiently build and optimize models, thus improving the ability to predict financial data.
-
-Translated with DeepL.com (free version)
+**Conclusion**: Parallel computing enables research teams to process large amounts of text in a shorter period of time and efficiently build and optimize models, thus improving the ability to predict financial data.
