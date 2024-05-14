@@ -13,8 +13,6 @@ Upon completion of this project, it is expected to be put into practical product
 - Industry standard and innovation: Our model can become the new standard for virtual currency price prediction and drive technological innovation and application in related fields.
 - Extension to other financial markets: Our model can be extended to other financial markets. Successful virtual currency price prediction methods can help make accurate predictions for stocks, bonds, commodities, and other areas, providing valuable assistance to the broader financial sector.
 Overall, our project has great potential for the industrial sector, and at the same time, our project is innovative, and at this stage, we are not able to search Google Scholar for studies related to putting the Alpaca LoRA model into financial analysis and forecasting.
-## Summary:
-All three platforms have the advantages of each deep integration, however, users need to calculate carefully when it comes to price, which is not a low overhead. In addition to this, try not to change the platform you are using, as interoperability between platforms is poor.
 ## Table Of Contents:
 1. [**Self Introduction**](./Author)
 2. [**Research Questions**](./First_train/Research_questions)
